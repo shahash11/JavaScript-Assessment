@@ -1,0 +1,209 @@
+.label-format
+{
+    width: 150px;
+    display: inline-block;
+
+}
+
+.spaceStyle{
+    margin-bottom:10%;
+}
+
+.bottomSpacing
+{
+    margin-bottom:10px;
+}
+
+.passSpacing{
+    margin-bottom:5px;
+}
+
+.submitColor
+{
+    display: inline-block
+    background-color:green;
+    color:blue;
+    border-radius:5px;
+    font-weight: bold;
+    
+}
+
+.cancelColor
+{
+    background-color: red;
+    color:white;
+    border-radius:5px;
+    font-weight: bold;
+}
+
+.center
+{
+    text-align: center;
+}
+
+.slideLeft{
+    width: 117%;
+}
+
+.bottomSpace
+{
+    margin-bottom:15px;
+}
+
+.listStyle
+{
+    list-style-type:square;
+}
+
+
+
+table{
+    width: 500px;
+}
+
+th, caption{
+    text-align: left;
+}
+table, th, td{
+    border: 1px solid black;
+    border-collapse: collapse;
+
+}
+
+th, td{
+    padding: 10px;
+}
+.header_info{
+    background-color: green;
+}
+/* HTML 5 SEMANTICS first HEADER */
+.header_info li {
+    display: inline-block;
+    padding-right: 60px;
+    width: 100px;
+    height: 40px;
+    padding-top: 15px;
+    background-color: red;
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Source Sans Pro', sans-serif;
+    margin:0px;
+}
+
+.header_info li a{
+    text-decoration: none;
+    color: #f1f1f1;
+}
+
+body{
+    margin:0%
+}
+
+.fa{
+    color: indigo;
+}
+
+.ribbon-topnav {
+    font-size: 11px;
+    font-weight: bold;
+    padding: 3px 10px;
+    margin-left: 3px;
+    text-align: center;
+    color: black;
+    border-radius: 25px;
+    border: 1px solid black;
+    position: relative;
+    top: -2px;
+    background-color: white;
+}
+
+/* must do like this in cluding the parent element */
+.header_info li a:hover {
+    background-color:black;
+    color: white!important;
+  }
+
+  /* Total width of element = width + left padding + right padding + left border + right border + left margin + right margin */
+
+  /* BOX-MODEL */
+  .box_model{
+      background-color: green;
+      width: 300px;
+      padding:40px;
+      border: 10px solid black;
+      margin:20px;
+  }
+  /* OVERFLOW  */
+.overflow-property{
+    width: 150px;
+    height: 100px;
+    background-color: #eee ;
+    overflow: scroll;
+}
+
+/* position statically */
+.position_static{
+    position: static;
+    border: 3px solid black;
+}
+
+position_relative{
+    position: relative;
+    color: blue;
+}
+/* pair */
+/* see how we can use the same class name but with different tags */
+div.pair{
+    color:red;
+
+}
+
+p.pair{
+    color:blue;
+}
+
+/* +p means immediate next p will be impacted from this div */
+.div_plus_p +p{
+    background-color: violet;
+}
+
+.head_info{
+    background-color: yellowgreen;
+
+}
+
+.head_info li {
+    display: inline-block;
+    padding-right: 40px;
+    padding-left: 8.3px;
+    width: 100px;
+    height: 40px;
+    padding-top: 15px;
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Source Sans Pro', sans-serif;
+    border-right: 1px solid blueviolet;
+    
+}
+
+.head_info li a{
+    text-decoration: none;
+    color: seashell;
+}
+
+.head_info li a:hover{
+    background-color: cornflowerblue;
+
+}
+
+.logo{
+    background-image: url(images/sbi.png);
+}
+
+.pseudo-element::first-line{
+    background-color: green;
+}
+
+.shahash{
+    width: 800px;
+}

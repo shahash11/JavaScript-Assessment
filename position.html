@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/position.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <!-- <!-- position static.. whether you use it or not doesn't matter -->
+    <!-- it is default property for html elements -->
+    -->
+    <div class="position_static">This is Shahash from Nepal.</div>
+    <!-- <div class="position_relative">This is Shahash from Nepal.</div> -->
+    <div class="position_absolute">shahash kandel</div>
+    <!-- position fixed lets you manage the items or help you direct elements directly to the top or bottom -->
+    <!-- in this example you will see the div above this one should appear first but i made this one appear at first -->
+    <div class="position_fixed">Hey, it's me SHAHASH KANDEL</div>
+
+    <!-- div properties div > p     it is going to style every <p> elements that are inside the div if div is the parent of p -->
+
+    <div>
+      <h1>my name is shahash</h1>
+      <p>i live in Nepal</p>
+      <p>I live in jamal</p>
+    </div>
+
+    <div>
+      <span><p>I will not be styled</p></span>
+      <p>We are good</p>
+    </div>
+    <p>We are best friends</p>
+
+    <!-- div p   it brings changes with all the p's if they are inside the div tag no matter what -->
+    <hr />
+
+    <div class="pair">Piar 1</div>
+    <p class="pair">Pair 2</p>
+
+    <hr />
+
+    <!-- div + p -->
+    <!-- /* +p means immediate next p will be impacted from this div */ -->
+    <div class="div_plus_p">
+      <p>Hello world</p>
+      <p>shahash</p>
+    </div>
+
+    <p>Hello 2</p>
+    <p>Hello 3</p>
+
+    <hr>
+    <!-- /* impacts all ul that comes after p */ -->
+    <p>
+        <ul>
+            <li>list 1</li>
+            <li>list 1</li>
+            <li>list 1</li>
+        </ul>
+    </p>
+
+    <div>Shahash</div>
+    <p>KANDEL</p>
+    <ul>
+        <li>list2</li>
+        <li>list2</li>
+        <li>list2</li>
+    </ul> 
+
+    <p class="text_magic">WE ALL ARE NEPALESE</p>
+    <p id="text_magic">WE ALL ARE NEPALESE</p>
+
+    <hr>
+  </body>
+</html>
