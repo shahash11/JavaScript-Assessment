@@ -41,7 +41,8 @@ console.log(array)
 array.shift()
 console.log(array)
 
-
+//includes method // use for finding boolean whether the array element is included in the array or not
+console.log(array.includes(4))
 
 // Switch Statements
 var day = "monday";
