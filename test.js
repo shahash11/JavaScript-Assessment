@@ -92,28 +92,7 @@
 // }
 // newArray.push()
 
-// // Switch
-// var day = "monday";
-// switch(day)
-// {
-//     case "monday":
-//         console.log(`lets swim`);
-//         break;
-
-//     case "tuesday":
-//             console.log(`prepare food`);
-//             break;
-//         case "thursday":
-//          case "friday":
-//                     console.log("go home")
-//                     break;
-
-//                     default:
-//                         console.log(`nothing matched`)
-
-            
-
-// }
+                 
 
 // var array1 = [1,3,4,5,6,7];
 // switch(array1[3])
