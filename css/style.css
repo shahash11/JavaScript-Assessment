@@ -1,7 +1,7 @@
 .label-format
 {
     width: 150px;
-    display: inline-block;
+    /* display: inline-block; */
 
 }
 
@@ -138,7 +138,8 @@ body{
     width: 150px;
     height: 100px;
     background-color: #eee ;
-    overflow: scroll;
+    overflow:scroll;
+
 }
 
 /* position statically */
@@ -151,6 +152,8 @@ position_relative{
     position: relative;
     color: blue;
 }
+
+posit
 /* pair */
 /* see how we can use the same class name but with different tags */
 div.pair{
